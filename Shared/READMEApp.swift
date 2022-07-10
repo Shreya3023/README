@@ -6,12 +6,11 @@
 //
 
 import SwiftUI
-
 @main
 struct READMEApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(Library())
         }
     }
 }

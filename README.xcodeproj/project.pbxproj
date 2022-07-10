@@ -7,21 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		354D7DC1287582D70052D9AE /* NewBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354D7DC0287582D70052D9AE /* NewBookView.swift */; };
+		354D7DC2287582D70052D9AE /* NewBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354D7DC0287582D70052D9AE /* NewBookView.swift */; };
+		354D7DC42875866C0052D9AE /* ReviewAndImageStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354D7DC32875866C0052D9AE /* ReviewAndImageStack.swift */; };
+		354D7DC52875866C0052D9AE /* ReviewAndImageStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354D7DC32875866C0052D9AE /* ReviewAndImageStack.swift */; };
 		35F375A3286D92A70075FF15 /* READMEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F37593286D92A70075FF15 /* READMEApp.swift */; };
 		35F375A4286D92A70075FF15 /* READMEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F37593286D92A70075FF15 /* READMEApp.swift */; };
 		35F375A5286D92A70075FF15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F37594286D92A70075FF15 /* ContentView.swift */; };
 		35F375A6286D92A70075FF15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F37594286D92A70075FF15 /* ContentView.swift */; };
 		35F375A7286D92A70075FF15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F37595286D92A70075FF15 /* Assets.xcassets */; };
 		35F375A8286D92A70075FF15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F37595286D92A70075FF15 /* Assets.xcassets */; };
+		35F375B2286D96040075FF15 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F375B1286D96040075FF15 /* Book.swift */; };
+		35F375B3286D96040075FF15 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F375B1286D96040075FF15 /* Book.swift */; };
+		35F375B6286D9AA90075FF15 /* Bookviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F375B5286D9AA90075FF15 /* Bookviews.swift */; };
+		35F375B7286D9AA90075FF15 /* Bookviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F375B5286D9AA90075FF15 /* Bookviews.swift */; };
+		35F375B9286DE25F0075FF15 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F375B8286DE25F0075FF15 /* Library.swift */; };
+		35F375BA286DE25F0075FF15 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F375B8286DE25F0075FF15 /* Library.swift */; };
+		35F375C2286DE55A0075FF15 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F375C1286DE55A0075FF15 /* DetailView.swift */; };
+		35F375C3286DE55A0075FF15 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F375C1286DE55A0075FF15 /* DetailView.swift */; };
+		35F375C5286F36BD0075FF15 /* PHPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F375C4286F36BD0075FF15 /* PHPickerViewController.swift */; };
+		35F375C6286F36BD0075FF15 /* PHPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F375C4286F36BD0075FF15 /* PHPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		354D7DC0287582D70052D9AE /* NewBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBookView.swift; sourceTree = "<group>"; };
+		354D7DC32875866C0052D9AE /* ReviewAndImageStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewAndImageStack.swift; sourceTree = "<group>"; };
 		35F37593286D92A70075FF15 /* READMEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = READMEApp.swift; sourceTree = "<group>"; };
 		35F37594286D92A70075FF15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		35F37595286D92A70075FF15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35F3759A286D92A70075FF15 /* README.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = README.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F375A0286D92A70075FF15 /* README.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = README.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F375A2286D92A70075FF15 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		35F375B1286D96040075FF15 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		35F375B5286D9AA90075FF15 /* Bookviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookviews.swift; sourceTree = "<group>"; };
+		35F375B8286DE25F0075FF15 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		35F375C1286DE55A0075FF15 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		35F375C4286F36BD0075FF15 /* PHPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +76,9 @@
 			isa = PBXGroup;
 			children = (
 				35F37593286D92A70075FF15 /* READMEApp.swift */,
-				35F37594286D92A70075FF15 /* ContentView.swift */,
+				35F375B8286DE25F0075FF15 /* Library.swift */,
+				35F375B4286D9A790075FF15 /* Views */,
+				35F375B1286D96040075FF15 /* Book.swift */,
 				35F37595286D92A70075FF15 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -76,6 +99,19 @@
 				35F375A2286D92A70075FF15 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		35F375B4286D9A790075FF15 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35F37594286D92A70075FF15 /* ContentView.swift */,
+				35F375C1286DE55A0075FF15 /* DetailView.swift */,
+				35F375B5286D9AA90075FF15 /* Bookviews.swift */,
+				35F375C4286F36BD0075FF15 /* PHPickerViewController.swift */,
+				354D7DC0287582D70052D9AE /* NewBookView.swift */,
+				354D7DC32875866C0052D9AE /* ReviewAndImageStack.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +213,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				35F375A5286D92A70075FF15 /* ContentView.swift in Sources */,
+				35F375C2286DE55A0075FF15 /* DetailView.swift in Sources */,
 				35F375A3286D92A70075FF15 /* READMEApp.swift in Sources */,
+				35F375B9286DE25F0075FF15 /* Library.swift in Sources */,
+				354D7DC1287582D70052D9AE /* NewBookView.swift in Sources */,
+				35F375B2286D96040075FF15 /* Book.swift in Sources */,
+				35F375C5286F36BD0075FF15 /* PHPickerViewController.swift in Sources */,
+				354D7DC42875866C0052D9AE /* ReviewAndImageStack.swift in Sources */,
+				35F375B6286D9AA90075FF15 /* Bookviews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +229,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				35F375A6286D92A70075FF15 /* ContentView.swift in Sources */,
+				35F375C3286DE55A0075FF15 /* DetailView.swift in Sources */,
 				35F375A4286D92A70075FF15 /* READMEApp.swift in Sources */,
+				35F375BA286DE25F0075FF15 /* Library.swift in Sources */,
+				354D7DC2287582D70052D9AE /* NewBookView.swift in Sources */,
+				35F375B3286D96040075FF15 /* Book.swift in Sources */,
+				35F375C6286F36BD0075FF15 /* PHPickerViewController.swift in Sources */,
+				354D7DC52875866C0052D9AE /* ReviewAndImageStack.swift in Sources */,
+				35F375B7286D9AA90075FF15 /* Bookviews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +364,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
@@ -327,7 +378,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -338,11 +389,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
@@ -356,7 +409,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
